@@ -80,6 +80,9 @@ BasicGame.Game.prototype = {
         // Initialize controls
         spacebar = this.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 
+        // Create weapon group
+        // TODO
+
         // Create first weapon
         this.create_weapon();
     },
